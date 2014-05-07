@@ -7,6 +7,8 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'jbuilder'
 gem 'bootstrap'
+gem 'ember-rails'
+gem 'ember-data-source', '~> 1.0.0.beta.7'
 
 group :development do
   gem 'better_errors'

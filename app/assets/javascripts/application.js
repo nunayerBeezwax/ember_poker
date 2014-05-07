@@ -11,5 +11,12 @@
 // about supported directives.
 //
 //= require jquery
-//= require turbolinks
+//= require handlebars
+//= require ember
+//= require ember-data
+//= require_self
 //= require_tree .
+
+// for more details see: http://emberjs.com/guides/application/
+Poker = Ember.Application.create();
+
